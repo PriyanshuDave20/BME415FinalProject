@@ -45,12 +45,12 @@ across four RNA targets: NRXN1, NRXN2, NRXN3, and AR-V7.
 |--------|-----------|---------------------|---------------|--------------------------|
 | NRXN1 | WT | ARG | Yes | A18;U16;U17;U7;U8 |
 | NRXN1 | R168C | CYS | Yes | A25;A77;G24 |
-| NRXN2 | WT | N/A | No | — |
-| NRXN2 | R168C | N/A | No | — |
-| NRXN3 | WT | N/A | No | — |
-| NRXN3 | R168C | N/A | No | — |
-| AR-V7 | WT | N/A | No | — |
-| AR-V7 | R168C | N/A | No | — |
+| NRXN2 | WT | N/A | No | â€” |
+| NRXN2 | R168C | N/A | No | â€” |
+| NRXN3 | WT | N/A | No | â€” |
+| NRXN3 | R168C | N/A | No | â€” |
+| AR-V7 | WT | N/A | No | â€” |
+| AR-V7 | R168C | N/A | No | â€” |
 
 ---
 
@@ -60,7 +60,7 @@ Across the 4 RNA targets analyzed:
 
 - **2 target(s)** show **increased** viable contacts in R168C (>1.2x WT)
 - **0 target(s)** show **decreased** viable contacts in R168C (<0.8x WT)
-- **2 target(s)** show **similar** viable contacts in R168C (0.8–1.2x WT)
+- **2 target(s)** show **similar** viable contacts in R168C (0.8â€“1.2x WT)
 
 - **Largest increase**: NRXN1 (4.04x)
 - **Largest decrease**: NRXN2 (1.04x)
