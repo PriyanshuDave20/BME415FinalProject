@@ -55,13 +55,13 @@ The candidate matches were identified in exonic transcript regions. Some occur i
 
 | Gene | Motif | Transcript | Score | Feature | Reasons |
 |------|-------|------------|-------|---------|---------|
-| NRXN3 | R5 | ENST00000281127.11 | 3 | exon | near_splice_junction;shared_across_2_isoforms;potentially_accessible |
-| NRXN3 | R5 | ENST00000335750.7 | 3 | exon | near_splice_junction;shared_across_2_isoforms;potentially_accessible |
+| NRXN3 | WT5 | ENST00000281127.11 | 3 | exon | near_splice_junction;shared_across_2_isoforms;potentially_accessible |
+| NRXN3 | WT5/R5 | ENST00000335750.7 | 3 | exon | near_splice_junction;shared_across_2_isoforms;potentially_accessible |
 | AR | R5 | ENST00000504326.5 | 3 | cryptic_exon_associated_region | near_splice_junction;potentially_accessible;AR-V7_specific_region |
-| NRXN2 | R5 | ENST00000496291.2 | 2 | exon | shared_across_2_isoforms;potentially_accessible |
+| NRXN2 | WT5/R5 | ENST00000496291.2 | 2 | exon | shared_across_2_isoforms;potentially_accessible |
 | NRXN1 | R5 | verified_transcript_id_required | 2 | exon | near_splice_junction;potentially_accessible |
-| NRXN3 | R5 | ENST00000281127.11 | 1 | exon | shared_across_2_isoforms |
-| NRXN2 | R5 | ENST00000496291.2 | 1 | exon | shared_across_2_isoforms |
+| NRXN3 | WT5/R5 | ENST00000281127.11 | 1 | exon | shared_across_2_isoforms |
+| NRXN2 | WT5 | ENST00000496291.2 | 1 | exon | shared_across_2_isoforms |
 
 ## 7. RNA accessibility
 
@@ -82,8 +82,8 @@ For each motif match, a 50 nt window on each side was extracted and its GC conte
 |------|-------|---------|-----------|----------------|
 | AR | R5 | 1 | 0.642 | Potentially accessible |
 | NRXN1 | R5 | 1 | 0.581 | Potentially accessible |
-| NRXN2 | R5 | 2 | 0.526 | Mixed accessibility |
-| NRXN3 | R5 | 4 | 0.548 | Mixed accessibility |
+| NRXN2 | WT5/R5 | 2 | 0.526 | Mixed accessibility |
+| NRXN3 | WT5/R5 | 4 | 0.548 | Mixed accessibility |
 
 ### Candidate site observations
 
@@ -104,16 +104,3 @@ The GC-content-based accessibility analysis indicates that several R5 candidate 
 Together, these findings provide preliminary computational support for the hypothesis that the R168C-associated motif may recognize a somewhat different distribution of RNA regions across AR-V7 and neurexin transcripts.
 
 However, the evidence does not establish a definitive change in binding specificity, actual KHDRBS2 binding, or an effect on alternative splicing.
-
-## 9. Limitations
-
-- IUPAC-aware consensus matching is exploratory and does not account for position-specific motif preferences.
-- WT5 and R5 have different motif lengths and sequence degeneracy, so raw match counts are not directly comparable.
-- The prioritization score is a heuristic and does not represent experimentally validated binding.
-- The accessibility measure is a GC-content proxy, not a real RNA structure prediction.
-- No real RNA secondary structure prediction was performed.
-- Motif matches are candidate recognition sites, not experimentally validated KHDRBS2 binding sites.
-- Proximity to a splice junction does not establish a regulatory effect on splicing.
-- Candidate transcript assignments and site coordinates require verification against the reference annotation.
-- Matched PWM scanning thresholds and sequence-background controls are required for a more reliable WT5-versus-R5 comparison.
-- Experimental validation would be necessary to establish actual changes in KHDRBS2 binding or transcript processing.
