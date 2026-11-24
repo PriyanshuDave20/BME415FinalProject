@@ -130,13 +130,3 @@ prediction).
 - No RNA is present, so RNA contacts are hypothetical.
 - Only 3 predictions per variant; more seeds may reveal
   additional variability.
-
-## Recommended next experiments
-
-- Mutate ASP162/ASP165/GLU166 to test whether the acidic
-  pocket contacts matter (charge-reversal controls).
-- Measure RNA-binding affinity directly for WT and R168C
-  (e.g. fluorescence anisotropy or EMSA with the same RNA
-  target).
-- Test whether the 158-178 surface contacts RNA (RNA
-  footprinting or crosslinking-native analysis).
