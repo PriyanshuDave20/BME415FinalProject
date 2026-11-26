@@ -1,0 +1,13 @@
+srr	gsm	bio_sample	condition	biological_replicate	library_id	layout	ena_title	mapped_reads	run_type	evidence
+SRR12192530	GSM4665362	SAMN15502104	WT	1	Exp91_KHDRBS2	interleaved	easyCLIP KHDRBS2 Replicate 1 HiSeq	2720937	primary run of library (technical repeat: SRR12192531)	confirmed: read overlap 19.8% vs controls <= 0.2%
+SRR12192531	GSM4665363	SAMN15502103	WT	1	Exp91_KHDRBS2	interleaved	easyCLIP KHDRBS2 Replicate 1 MiSeq	570689	technical replicate run (same library as SRR12192530)	confirmed: read overlap 19.8% vs controls <= 0.2%
+SRR12192532	GSM4665364	SAMN15502102	WT	2	Exp92_KHDRBS2	interleaved	easyCLIP KHDRBS2 Replicate 2 HiSeq	4800262	primary run of library (technical repeat: SRR12192533)	confirmed: read overlap 11.9% vs controls <= 0.2%
+SRR12192533	GSM4665365	SAMN15502108	WT	2	Exp92_KHDRBS2	paired	easyCLIP KHDRBS2 Replicate 2 MiSeq	996326	technical replicate run (same library as SRR12192532)	confirmed: read overlap 11.9% vs controls <= 0.2%
+SRR12192534	GSM4665366	SAMN15502107	WT	3	Exp98_KHDRBS2	paired	easyCLIP KHDRBS2 Replicate 3 HiSeq	557988	only run of this library	no second run exists
+SRR12192535	GSM4665367	SAMN15502106	WT	4	Exp99_KHDRBS2	paired	easyCLIP KHDRBS2 Replicate 4 HiSeq	940499	only run of this library	no second run exists
+SRR12192536	GSM4665368	SAMN15502105	R168C	1	Exp91_KHDRBS2-R168C	paired	easyCLIP KHDRBS2-R168C Replicate 1 HiSeq	4077743	primary run of library (technical repeat: SRR12192537)	confirmed: read overlap 11.9% vs controls <= 0.2%
+SRR12192537	GSM4665369	SAMN15502101	R168C	1	Exp91_KHDRBS2-R168C	paired	easyCLIP KHDRBS2-R168C Replicate 1 MiSeq	863341	technical replicate run (same library as SRR12192536)	confirmed: read overlap 11.9% vs controls <= 0.2%
+SRR12192538	GSM4665370	SAMN15502100	R168C	2	Exp92_KHDRBS2-R168C	paired	easyCLIP KHDRBS2-R168C Replicate 2 HiSeq	6995512	primary run of library (technical repeat: SRR12192539)	confirmed: read overlap 7.2% vs controls <= 0.2%
+SRR12192539	GSM4665371	SAMN15502099	R168C	2	Exp92_KHDRBS2-R168C	paired	easyCLIP KHDRBS2-R168C Replicate 2 MiSeq	1433502	technical replicate run (same library as SRR12192538)	confirmed: read overlap 7.2% vs controls <= 0.2%
+SRR12192540	GSM4665372	SAMN15502098	R168C	3	Exp98_KHDRBS2-R168C	paired	easyCLIP KHDRBS2-R168C Replicate 3 HiSeq	1461822	only run of this library	no second run exists
+SRR12192541	GSM4665373	SAMN15502097	R168C	4	Exp99_KHDRBS2-R168C	paired	easyCLIP KHDRBS2-R168C Replicate 4 HiSeq	916736	only run of this library	no second run exists

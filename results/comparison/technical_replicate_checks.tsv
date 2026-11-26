@@ -1,0 +1,7 @@
+run_a	run_b	comparison	shared_pct	interpretation
+SRR12192531	SRR12192530	WT replicate 1	19.80	same library
+SRR12192533	SRR12192532	WT replicate 2	11.86	same library
+SRR12192537	SRR12192536	R168C replicate 1	11.89	same library
+SRR12192539	SRR12192538	R168C replicate 2	7.21	same library
+SRR12192531	SRR12192536	control: WT rep1 MiSeq vs R168C rep1 HiSeq	0.13	different libraries (as expected)
+SRR12192531	SRR12192535	control: WT rep1 MiSeq vs WT rep3 HiSeq	0.25	different libraries (as expected)

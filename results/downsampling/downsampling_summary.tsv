@@ -1,0 +1,9 @@
+dataset	srr	condition	bam_original	mapped_reads_original	fragments_original	bam_downsampled	fragments_downsampled	n_regions_original	n_regions_downsampled
+R168C-BR1	SRR12192536	R168C	results\alignments\SRR12192536\SRR12192536_aligned.bam	4077743	1314480	results/downsampling/bams\SRR12192536_downsampled.bam	877167	11705	8981
+R168C-BR2	SRR12192538	R168C	results\alignments\SRR12192538\SRR12192538_aligned.bam	6995512	1825285	results/downsampling/bams\SRR12192538_downsampled.bam	1251710	14106	11246
+R168C-BR3	SRR12192540	R168C	results\alignments\SRR12192540\SRR12192540_aligned.bam	1461822	439347	results/downsampling/bams\SRR12192540_downsampled.bam	167295	5602	2141
+R168C-BR4	SRR12192541	R168C	results\alignments\SRR12192541\SRR12192541_aligned.bam	916736	274530		274530	3421	3421
+WT-BR1	SRR12192530	WT	results\alignments\SRR12192530\SRR12192530_aligned.bam	2720937	881560		881560	8919	8919
+WT-BR2	SRR12192532	WT	results\alignments\SRR12192532\SRR12192532_aligned.bam	4800262	1561115		1561115	13089	13089
+WT-BR3	SRR12192534	WT	results\alignments\SRR12192534\SRR12192534_aligned.bam	557988	170714		170714	1773	1773
+WT-BR4	SRR12192535	WT	results\alignments\SRR12192535\SRR12192535_aligned.bam	940499	290763	results/downsampling/bams\SRR12192535_downsampled.bam	283661	3227	3100
