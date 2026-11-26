@@ -13,46 +13,27 @@ The repo is organized as five connected stages:
 ## Repository layout
 
 ```text
-raw_data/                     Original easyCLIP-seq FASTQ inputs (ignored)
 reference/                    GRCh38 genome, GENCODE annotation, target transcripts
-src/                          Organized analysis and pipeline scripts
+src1/                         Organized analysis and pipeline scripts
 results/                      Final reports, tables, figures, selected structures, target 3D inputs
-data_cache/                   Regenerable intermediates and archived/overlapping outputs (ignored)
 WT/                           Top-10 WT protein-RNA docking models by target
 R168C/                        Top-10 R168C protein-RNA docking models by target
 3D Analysis/                  HDOCK .out records in Target_structs/
 docking_contact_results/      Docking contact tables and mutation-impact summary
 summaries/                    Convenience copies of cross-stage summaries
 HDOCKlite/                    Local HDOCKlite tool (ignored)
-.venv/                        Local Python environment (ignored)
 ```
 
 ### Source-code organization
 
 ```text
-src/read_processing/          FASTQ validation, trimming/UMI handling, alignment, regions, comparison
-src/motif_analysis/           STREME motifs, WT5/R5 target scanning, annotation, reports
-src/structural_analysis/      Sequence/structure validation, RMSD and residue-168 analysis
-src/target_isoform_docking/   Isoform selection, motif scanning, RNA-region/FASTA preparation
-src/docking/                  Docking-model generation, contact analysis, impact summary
-src/transcript_processing/    Target transcript extraction and curation helpers
+src1/read_processing/          FASTQ validation, trimming/UMI handling, alignment, regions, comparison
+src1/motif_analysis/           STREME motifs, WT5/R5 target scanning, annotation, reports
+src1/structural_analysis/      Sequence/structure validation, RMSD and residue-168 analysis
+src1/target_isoform_docking/   Isoform selection, motif scanning, RNA-region/FASTA preparation
+src1/docking/                  Docking-model generation, contact analysis, impact summary
+src1/transcript_processing/    Target transcript extraction and curation helpers
 ```
-
-## Data and cache policy
-
-`results/` should contain curated outputs that support conclusions. Heavy intermediates
-belong in `data_cache/`, grouped by topic. Current cache folders include:
-
-- `data_cache/preprocessed/` and `data_cache/alignments*/`
-- `data_cache/dedup/`
-- `data_cache/comparison/`
-- `data_cache/motif_target_analysis/`
-- `data_cache/wt5_r5_investigation/`
-- `data_cache/run_logs/`
-
-`raw_data/`, `data_cache/`, `HDOCKlite/`, and `.venv/` are ignored. Some legacy
-ignore rules remain for older `results/` paths in case an earlier script is rerun
-before every script path has been modernized.
 
 ## Stage A: easyCLIP-seq read processing
 
@@ -68,13 +49,7 @@ py -3 src/motif_analysis/motifs.py
 ```
 
 Main curated outputs:
-
-- `results/sample_summary.tsv`
-- `results/preprocessing_summary.tsv`
-- `results/binding_regions/`
-- `results/comparison/comparison_summary.md`
-- `results/downsampling/downsampling_summary.tsv`
-- `results/motifs/motif_summary.md`
+- `summaries/`
 
 The workflow identifies WT5 and R5 as the motifs used by later stages. The motif
 scan uses WT5 `CCGTCTCAA` and R5 `GGTCTYGMWC`.
@@ -85,13 +60,13 @@ The numbered scripts are under `src/motif_analysis/`. The final report is the
 source of truth for motif-to-target counts:
 
 ```text
-results/motif_target_analysis/07_final_reports/FINAL_SUMMARY.md
+summaries/FINAL_SUMMARY.md
 ```
 
 The consolidated mutation-facing motif summary is:
 
 ```text
-results/motif_target_analysis/07_final_reports/R5_WT5_motif_impact_summary.md
+summaries/R5_WT5_motif_impact_summary.md
 ```
 
 Key target-scan totals are:
@@ -206,3 +181,5 @@ At the 5 A docking-contact cutoff, R168C shows the largest contact increase for
 NRXN1 (median viable residue pairs 13.0 for WT versus 52.5 for R168C), with a
 smaller increase for NRXN3 and similar values for NRXN2 and AR-V7. Contact
 results are computational predictions, not experimental binding measurements.
+
+
