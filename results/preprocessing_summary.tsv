@@ -1,0 +1,13 @@
+sample_id	condition	biological_replicate	input_fragments	fragments_retained	adapter_trimmed_reads	barcode_processed_fragments	umi_status	output_paths	status
+SRR12192530	WT	1	3322201	3306539	324166	3322188	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192530_R1.fastq.gz ; results/preprocessed\SRR12192530_R2.fastq.gz	OK
+SRR12192531	WT	1	699926	696608	64993	699926	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192531_R1.fastq.gz ; results/preprocessed\SRR12192531_R2.fastq.gz	OK
+SRR12192532	WT	2	6002088	5983916	588622	6002062	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192532_R1.fastq.gz ; results/preprocessed\SRR12192532_R2.fastq.gz	OK
+SRR12192533	WT	2	1253463	1249647	110975	1253463	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192533_R1.fastq.gz ; results/preprocessed\SRR12192533_R2.fastq.gz	OK
+SRR12192534	WT	3	665911	662580	78185	665910	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192534_R1.fastq.gz ; results/preprocessed\SRR12192534_R2.fastq.gz	OK
+SRR12192535	WT	4	1068782	1065877	116820	1068779	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192535_R1.fastq.gz ; results/preprocessed\SRR12192535_R2.fastq.gz	OK
+SRR12192536	R168C	1	5820586	5796444	599192	5820563	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192536_R1.fastq.gz ; results/preprocessed\SRR12192536_R2.fastq.gz	OK
+SRR12192537	R168C	1	1244505	1239542	117440	1244505	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192537_R1.fastq.gz ; results/preprocessed\SRR12192537_R2.fastq.gz	OK
+SRR12192538	R168C	2	10000420	9969723	1116131	10000362	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192538_R1.fastq.gz ; results/preprocessed\SRR12192538_R2.fastq.gz	OK
+SRR12192539	R168C	2	2141073	2133950	207338	2141073	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192539_R1.fastq.gz ; results/preprocessed\SRR12192539_R2.fastq.gz	OK
+SRR12192540	R168C	3	2243004	2235821	316833	2242999	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192540_R1.fastq.gz ; results/preprocessed\SRR12192540_R2.fastq.gz	OK
+SRR12192541	R168C	4	1446711	1438577	188629	1446710	UMI (7 nt) in headers, verified, appended to read name	results/preprocessed\SRR12192541_R1.fastq.gz ; results/preprocessed\SRR12192541_R2.fastq.gz	OK

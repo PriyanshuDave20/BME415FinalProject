@@ -1,0 +1,6 @@
+NRXN1: 65 isoforms
+NRXN2: 20 isoforms
+NRXN3: 19 isoforms
+AR_V7: 8 isoforms
+AR_V7 found: True
+All minimum requirements: PASS
