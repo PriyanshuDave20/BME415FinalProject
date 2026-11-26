@@ -166,20 +166,4 @@ HDOCK `.out` records for the eight WT/R168C-by-target runs are retained in
 - WSL Ubuntu with `minimap2`, `samtools`, `umi_tools`, and MEME Suite/STREME
 - HDOCKlite for the retained HDOCK `.out` records
 
-## Main results
-
-The motif-to-target analysis reports 8 R5 consensus matches versus 5 WT5 matches
-across AR, NRXN1, NRXN2, and NRXN3. Three positions are shared, five are R5-only,
-and two are WT5-only. The heuristic accessibility mean is 0.563 for R5 versus
-0.491 for WT5. See `FINAL_SUMMARY.md` for the authoritative counts.
-
-Structurally, R168C does not introduce a clear local backbone rearrangement near
-residue 168, but it replaces an exposed positive arginine with cysteine in an
-acidic surface pocket.
-
-At the 5 A docking-contact cutoff, R168C shows the largest contact increase for
-NRXN1 (median viable residue pairs 13.0 for WT versus 52.5 for R168C), with a
-smaller increase for NRXN3 and similar values for NRXN2 and AR-V7. Contact
-results are computational predictions, not experimental binding measurements.
-
 
