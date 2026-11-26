@@ -1,0 +1,2 @@
+variant	file	chain	n_residues	first_residue	last_residue	mean_plddt_all	mean_plddt_158_178	plddt_168	missing_residues
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	A	349	1	349	69.85	89.89	90.25	none

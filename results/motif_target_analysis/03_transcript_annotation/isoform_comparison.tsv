@@ -1,0 +1,4 @@
+Gene	Motif	Matched_sequence	N_isoforms_with_site	Isoform_status	Transcript_IDs
+NRXN2	R5	GGTCTTGATC	1	isoform_specific	ENST00000496291.2
+NRXN3	R5	GGTCTCGAAC	2	shared_across_isoforms	ENST00000281127.11;ENST00000335750.7
+NRXN3	R5	GGTCTCGATC	2	shared_across_isoforms	ENST00000281127.11;ENST00000335750.7

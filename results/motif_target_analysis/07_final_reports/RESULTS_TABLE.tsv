@@ -1,0 +1,10 @@
+Gene	WT5_matches	R5_matches
+AR	0	0
+NRXN1	0	0
+NRXN2	0	1
+NRXN3	0	4
+
+Classification	Count
+shared	0
+WT5_only	0
+R5_only	5

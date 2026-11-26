@@ -1,0 +1,7 @@
+wt_motif_id	r168c_motif_id	wt_consensus	r168c_consensus	width_wt	width_r168c	similarity	wt_evalue	r168c_evalue	wt_seqs_with_motif	r168c_seqs_with_motif	relationship
+STREME-4	STREME-4	CAGCCTGGSCAA	GCCTGGSCAACA	12	12	1.000	6.40e-14	3.70e-23	677	863	shared
+STREME-1	STREME-3	GCTGGGATTACA	GCTGGGATTACA	12	12	1.000	9.50e-23	4.70e-26	845	982	shared
+STREME-3	STREME-1	RGYGYRGTGGC	GCCACYRCRCYC	11	12	0.998	1.80e-18	7.00e-28	906	1267	shared
+STREME-2	STREME-2	CTCRGCCTCCCR	GGGAGGCYGAGG	12	12	0.996	6.80e-22	1.10e-26	985	988	shared
+STREME-5		CCGTCTCAA		9		1.50e-10		685		WT-associated (best sim to R168C: 0.76)
+STREME-5		GGTCTYGMWC		10		4.30e-11		778	R168C-associated (best sim to WT: 0.76)

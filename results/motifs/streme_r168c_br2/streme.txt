@@ -1,0 +1,53 @@
+********************************************************************************
+STREME - Sensitive, Thorough, Rapid, Enriched Motif Elicitation
+********************************************************************************
+MEME version 5.5.9 (Release date: Fri Nov 21 15:33:51 2025 -0800)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey,
+"STREME: accurate and versatile sequence motif discovery",
+Bioinformatics, Mar. 24, 2021.
+********************************************************************************
+
+
+ALPHABET= ACGT
+
+strands: + -
+
+Background letter frequencies
+A 0.316 C 0.184 G 0.184 T 0.316 
+
+MOTIF 1-CCTGTAATCCCA STREME-1
+letter-probability matrix: alength= 4 w= 12 nsites= 857 E= 8.2e-018
+ 0.007915 0.940912 0.005272 0.045901
+ 0.010534 0.936993 0.006581 0.045892
+ 0.003988 0.018364 0.002653 0.974995
+ 0.078131 0.003962 0.912610 0.005297
+ 0.006606 0.011818 0.009199 0.972376
+ 0.980653 0.002653 0.013128 0.003566
+ 0.756383 0.002653 0.238286 0.002678
+ 0.002678 0.003962 0.000035 0.993325
+ 0.018392 0.940198 0.009200 0.032210
+ 0.002678 0.952155 0.000035 0.045133
+ 0.006606 0.928591 0.001344 0.063459
+ 0.973686 0.003962 0.018365 0.003987
+
+********************************************************************************
+Stopped because maximum number of motifs (1) reached.
+********************************************************************************
+COMMAND:	streme --p /mnt/c/Users/priya/BME415FinalProject/results/motifs/fasta/r168c_br2_sequences.fasta --oc /mnt/c/Users/priya/BME415FinalProject/results/motifs/streme_r168c_br2 --nmotifs 1 --minw 4 --maxw 12 --seed 154168
+********************************************************************************
+CPU:		PinuLaptop
+********************************************************************************
+FINALTIME:	24.86 seconds
+********************************************************************************

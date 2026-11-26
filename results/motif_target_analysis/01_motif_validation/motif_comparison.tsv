@@ -1,0 +1,6 @@
+motif	consensus	width	nsites	information_content_bits
+WT5	CCGTCTCAA	9	634	14.660
+R5	GGTCTYGMWC	10	720	14.555
+
+similarity_metric	value
+cosine_similarity	0.1762

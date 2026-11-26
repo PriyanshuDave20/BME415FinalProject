@@ -1,0 +1,21 @@
+Reproducibility manifest
+========================
+
+Input files:
+  reference/gencode.v44.annotation.gtf
+  reference/target_transcripts/*.fa
+  results/wt5_r5_investigation/motif_files/wt5.meme
+  results/wt5_r5_investigation/motif_files/r5.meme
+
+Scripts executed (in order):
+  scripts/01_validate_motifs.py
+  scripts/02_scan_target_transcripts.py
+  scripts/03_map_transcript_features.py
+  scripts/04_compare_isoforms.py
+  scripts/05_analyze_rna_accessibility.py
+  scripts/06_prioritize_candidate_sites.py
+  scripts/07_generate_visualizations.py
+  scripts/08_generate_final_report.py
+
+Python version: 3.12
+External dependencies used: none beyond standard library

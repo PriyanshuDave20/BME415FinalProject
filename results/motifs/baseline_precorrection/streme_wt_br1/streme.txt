@@ -1,0 +1,53 @@
+********************************************************************************
+STREME - Sensitive, Thorough, Rapid, Enriched Motif Elicitation
+********************************************************************************
+MEME version 5.5.9 (Release date: Fri Nov 21 15:33:51 2025 -0800)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey,
+"STREME: accurate and versatile sequence motif discovery",
+Bioinformatics, Mar. 24, 2021.
+********************************************************************************
+
+
+ALPHABET= ACGT
+
+strands: + -
+
+Background letter frequencies
+A 0.318 C 0.182 G 0.182 T 0.318 
+
+MOTIF 1-GCTGGGATTACA STREME-1
+letter-probability matrix: alength= 4 w= 12 nsites= 523 E= 6.2e-013
+ 0.023810 0.004801 0.966542 0.004847
+ 0.000109 0.964166 0.004801 0.030924
+ 0.002478 0.014280 0.002431 0.980811
+ 0.028553 0.004800 0.964169 0.002478
+ 0.023810 0.004800 0.968912 0.002478
+ 0.033296 0.002431 0.952316 0.011957
+ 0.993422 0.000062 0.004038 0.002478
+ 0.002478 0.187803 0.002431 0.807288
+ 0.007217 0.011909 0.002431 0.978443
+ 0.973702 0.004801 0.014280 0.007217
+ 0.004847 0.954677 0.000062 0.040413
+ 0.978443 0.000062 0.019017 0.002478
+
+********************************************************************************
+Stopped because maximum number of motifs (1) reached.
+********************************************************************************
+COMMAND:	streme --p /mnt/c/Users/priya/BME415FinalProject/results/motifs/fasta/wt_br1_sequences.fasta --oc /mnt/c/Users/priya/BME415FinalProject/results/motifs/streme_wt_br1 --nmotifs 1 --minw 4 --maxw 12 --seed 154168
+********************************************************************************
+CPU:		PinuLaptop
+********************************************************************************
+FINALTIME:	14.39 seconds
+********************************************************************************

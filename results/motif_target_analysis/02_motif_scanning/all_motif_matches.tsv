@@ -1,0 +1,6 @@
+Gene	Transcript_ID	Transcript_version	Motif_name	Motif_type	Transcript_start	Transcript_end	Matched_sequence	Orientation	Raw_score	Normalized_score	Threshold	Site_classification	Motif_consensus
+NRXN2	ENST00000496291.2	ENST00000496291.2	R5	consensus	2125	2134	GGTCTTGATC	+	n/a	n/a	n/a	consensus_match	GGTCTYGMWC
+NRXN3	ENST00000281127.11	ENST00000281127.11	R5	consensus	5181	5190	GGTCTCGATC	+	n/a	n/a	n/a	consensus_match	GGTCTYGMWC
+NRXN3	ENST00000281127.11	ENST00000281127.11	R5	consensus	6066	6075	GGTCTCGAAC	+	n/a	n/a	n/a	consensus_match	GGTCTYGMWC
+NRXN3	ENST00000335750.7	ENST00000335750.7	R5	consensus	8724	8733	GGTCTCGATC	+	n/a	n/a	n/a	consensus_match	GGTCTYGMWC
+NRXN3	ENST00000335750.7	ENST00000335750.7	R5	consensus	9609	9618	GGTCTCGAAC	+	n/a	n/a	n/a	consensus_match	GGTCTYGMWC

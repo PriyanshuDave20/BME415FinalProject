@@ -1,0 +1,52 @@
+********************************************************************************
+STREME - Sensitive, Thorough, Rapid, Enriched Motif Elicitation
+********************************************************************************
+MEME version 5.5.9 (Release date: Fri Nov 21 15:33:51 2025 -0800)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey,
+"STREME: accurate and versatile sequence motif discovery",
+Bioinformatics, Mar. 24, 2021.
+********************************************************************************
+
+
+ALPHABET= ACGT
+
+strands: + -
+
+Background letter frequencies
+A 0.323 C 0.177 G 0.177 T 0.323 
+
+MOTIF 1-GAGGCTGAGGY STREME-1
+letter-probability matrix: alength= 4 w= 11 nsites= 167 E= 5.3e-005
+ 0.057792 0.000147 0.936042 0.006020
+ 0.970681 0.000147 0.028904 0.000268
+ 0.046285 0.005898 0.947548 0.000268
+ 0.115326 0.000147 0.872756 0.011771
+ 0.000268 0.963759 0.005898 0.030074
+ 0.066176 0.244232 0.162296 0.527295
+ 0.109591 0.005898 0.870354 0.014158
+ 0.953427 0.005898 0.040406 0.000268
+ 0.042928 0.011649 0.945154 0.000268
+ 0.011771 0.000147 0.893378 0.094705
+ 0.000268 0.656167 0.000147 0.343418
+
+********************************************************************************
+Stopped because maximum number of motifs (1) reached.
+********************************************************************************
+COMMAND:	streme --p /mnt/c/Users/priya/BME415FinalProject/results/motifs/fasta/r168c_br4_sequences.fasta --oc /mnt/c/Users/priya/BME415FinalProject/results/motifs/streme_r168c_br4 --nmotifs 1 --minw 4 --maxw 12 --seed 154168
+********************************************************************************
+CPU:		PinuLaptop
+********************************************************************************
+FINALTIME:	4.60 seconds
+********************************************************************************

@@ -1,0 +1,51 @@
+********************************************************************************
+STREME - Sensitive, Thorough, Rapid, Enriched Motif Elicitation
+********************************************************************************
+MEME version 5.5.9 (Release date: Fri Nov 21 15:33:51 2025 -0800)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey,
+"STREME: accurate and versatile sequence motif discovery",
+Bioinformatics, Mar. 24, 2021.
+********************************************************************************
+
+
+ALPHABET= ACGT
+
+strands: + -
+
+Background letter frequencies
+A 0.324 C 0.176 G 0.176 T 0.324 
+
+MOTIF 1-AGCTGGGATT STREME-1
+letter-probability matrix: alength= 4 w= 10 nsites= 85 E= 2.2e-001
+ 0.752595 0.000250 0.029792 0.217364
+ 0.020169 0.000250 0.979121 0.000461
+ 0.138540 0.801658 0.019951 0.039851
+ 0.020156 0.049500 0.000250 0.930094
+ 0.049705 0.000250 0.935653 0.014393
+ 0.083373 0.000250 0.915916 0.000461
+ 0.049732 0.029799 0.915924 0.004546
+ 0.742690 0.039670 0.138316 0.079324
+ 0.030020 0.231213 0.079137 0.659630
+ 0.000461 0.033901 0.049487 0.916151
+
+********************************************************************************
+Stopped because maximum number of motifs (1) reached.
+********************************************************************************
+COMMAND:	streme --p /mnt/c/Users/priya/BME415FinalProject/results/motifs/fasta/wt_br3_sequences.fasta --oc /mnt/c/Users/priya/BME415FinalProject/results/motifs/streme_wt_br3 --nmotifs 1 --minw 4 --maxw 12 --seed 154168
+********************************************************************************
+CPU:		PinuLaptop
+********************************************************************************
+FINALTIME:	2.33 seconds
+********************************************************************************

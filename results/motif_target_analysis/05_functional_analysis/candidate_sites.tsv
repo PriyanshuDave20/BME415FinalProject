@@ -1,0 +1,6 @@
+Gene	Motif	Transcript_ID	Transcript_start	Transcript_end	Matched_sequence	Feature	Junction_proximity	N_isoforms	Accessibility	Priority_score	Max_score	Confidence	Score_reasons
+NRXN3	R5	ENST00000281127.11	6066	6075	GGTCTCGAAC	exon	none	2	0.582	2	4	moderate_computational	shared_across_2_isoforms;potentially_accessible
+NRXN3	R5	ENST00000335750.7	9609	9618	GGTCTCGAAC	exon	none	2	0.582	2	4	moderate_computational	shared_across_2_isoforms;potentially_accessible
+NRXN3	R5	ENST00000281127.11	5181	5190	GGTCTCGATC	exon	none	2	0.482	1	4	exploratory	shared_across_2_isoforms
+NRXN3	R5	ENST00000335750.7	8724	8733	GGTCTCGATC	exon	none	2	0.482	1	4	exploratory	shared_across_2_isoforms
+NRXN2	R5	ENST00000496291.2	2125	2134	GGTCTTGATC	exon	none	1	0.491	0	4	exploratory	

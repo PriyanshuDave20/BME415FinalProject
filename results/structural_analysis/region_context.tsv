@@ -1,0 +1,11 @@
+variant	file	region	start	end	n_residues	mean_plddt	min_plddt	mean_sasa_A2	pct_exposed_gt_30A2
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	KH domain (65-135)	65	135	71	94.89	84.62	63.5	63.4
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	KH C-terminal part (120-145)	120	145	26	94.69	84.62	48.1	61.5
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	Linker before disordered region (136-181)	136	181	46	91.96	62.38	66.5	76.1
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	Linker around R168 (150-181)	150	181	32	90.07	62.38	72.8	81.2
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	Disordered region start (182-200)	182	200	19	45.31	39.78	142.2	100.0
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	Annotated disordered region (182-284)	182	284	103	49.66	39.22	136.3	100.0
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	Annotated disordered region (319-349)	319	349	31	51.39	36.38	153.8	100.0
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	KH domain	65	135	71	94.89	84.62	63.5	63.4
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	Disordered region	182	284	103	49.66	39.22	136.3	100.0
+WT	WT_AF-Q5VWX1-F1-model_v6.cif	Disordered region	319	349	31	51.39	36.38	153.8	100.0
